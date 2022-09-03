@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davidvz.Code</title>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../src/style/main.css">
+</head>
+<body class="">
+
+    <header>
+        <nav>
+            <img class="logo" src="../src/assets/image/logo-white.png" alt="logo vz.code">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-menu">
+                <svg width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line y1="10.5" x2="25" y2="10.5" stroke="#FF0600" stroke-width="3"/>
+                    <line y1="1.5" x2="25" y2="1.5" stroke="#FF0600" stroke-width="3"/>
+                </svg>
+            </div>
+            <div class="navbar-movil inactive">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section id="hero" class="hero">
+            <div class="hero-left">
+                <div class="hero-left--content">
+                    <a href="https://github.com/davidvzCode" target="_blank" ><span class="github-icon"></span></a>
+                    <a href="https://linkedin.com/in/david-zapata-498741241"  target="_blank"><span class="linkedin-icon"></span></a>
+                    <a href="#"><span class="instagram-icon"></span></a>
+                </div>
+            </div>
+            <div class="hero-about">
+                <h1>Hi 👋,<br> I’m <b>David Z,<br>Developer Backend </b> and <br><b>Frontend</b> </h1>
+                <p>I’m a system engineer specializing in backend. Currently, I’m focused on building dynamic websites with Node.js
+                    and Python</p>
+                <a href="">Contact me!</a>
+            </div>
+            <div class="hero-right">
+                <div class="line"></div>
+                <p class="hero-scroll">SCROLL DOWN</p>
+                <div class="toggle">
+                    <button id="switch" class="switch">
+                        <span><i class="fas fa-sun"></i></span>
+                        <span><i class="fas fa-moon"></i></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-content">
+            <div>
+                <h2>About Me</h2>
+                <p class="about-description">I’m Victor  Zapata, a System Engineer with back end development skills and a bit of front end. I'm happiest when I'm happiest when I'm programing, learning, exploring and thinking  about how to make things better.</p>
+            </div>
+            <div class="about-img">
+                <div class="about-img-container">
+                    <img src="../src/assets/image/perfil.jpg" alt="perfil">
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="skills-content">
+                <h3>Here are a few technologies I’ve been working with recently:</h3>
+                <div id="skill-list" class="skills-list">
+                    <!-- <div class="skills-item">
+                        <p class="skills-title">Node</p>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item">
+                        <p class="skills-title">Python</p>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item">
+                        <p class="skills-title">C#</p>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item">
+                        <p class="skills-title">javaScript</p>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item">
+                        <p class="skills-title">Html - Css</p>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item">
+                        <p class="skills-title">React</p>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="../src/assets/image/skills-white.jpg" alt="teclado gaming">
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <p class="about-description">Things I’ve built so far</p>
+            <div id="content" class="projects-cards">
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact me</h2>
+            <div class="contact-form">
+                <label for="">
+                    <input id="name" type="text" placeholder="Name">
+                </label>
+                <label for="">
+                    <input id="lastname" type="text" placeholder="Last name">
+                </label>
+                <label for="">
+                    <input id="email" type="email" placeholder="Email">
+                </label>
+                <label for="">
+                    <input id="phone" type="number" placeholder="Phone number">
+                </label>
+            </div>
+            <textarea id="message" cols="1" rows="10"></textarea>
+            <button id="send">Submit now</button>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div >
+                <img class="logo" src="../src/assets/image/logo-white.png" alt="logo vz.code">
+            </div>
+            <div class="section-redes">
+                <p>+593 998315102</p>
+                <p>davidvz.code@gmail.com</p>
+                <div class="redes-right">
+                    <a href="https://github.com/davidvzCode"  target="_blank"><span class="github-f"></span></a>
+                    <a href="#"><span class="twitter-f"></span></a>
+                    <a href="https://www.linkedin.com/in/david-zapata-498741241/" target="_blank"><span class="linkedin-f"></span></a>
+                </div>
+            </div>
+        </section>
+        <section class="footer-nav">
+            <div class="navbar">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+            </div>
+            <div>
+                <p class="footer-copyright">&copy;Designed and built by Davidvz</p>
+            </div>
+        </section>
+    </footer>
+    <script src="../src/index.js"></script>
+</body>
+</html>
