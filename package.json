@@ -5,6 +5,7 @@
   "main": "public/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build --emptyOutDir",
     "deploy": "gh-pages -d build"
   },
   "keywords": [],
@@ -13,5 +14,8 @@
   "devDependencies": {
     "gh-pages": "^4.0.0"
   },
-  "homepage": "https://davidvzCode.github.io/davidvzCode.io"
+  "homepage": "https://davidvzCode.github.io/davidvzCode.io",
+  "dependencies": {
+    "vite": "^3.0.9"
+  }
 }

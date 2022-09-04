@@ -95,12 +95,12 @@ menu.addEventListener('click', () => {
     nav_movil.classList.toggle('inactive')
 })
 
-logo[0].addEventListener('click', () => {
-    window.location.href = baseUrl + '#hero'
-})
-logo[1].addEventListener('click', () => {
-    window.location.href = baseUrl + '#hero'
-})
+// logo[0].addEventListener('click', () => {
+//     window.location.href = baseUrl + '#hero'
+// })
+// logo[1].addEventListener('click', () => {
+//     window.location.href = baseUrl + '#hero'
+// })
 
 btnsend.addEventListener('click', () => {
     getMail()
