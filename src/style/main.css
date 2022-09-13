@@ -410,6 +410,7 @@ main .hero-about {
     position: absolute;
     bottom: 14px;
     left: -24px;
+    object-fit: cover;
 }
 /* ABOUT ME */
 
